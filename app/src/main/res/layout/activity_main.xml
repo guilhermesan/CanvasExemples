@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDrawing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drawing Activity"/>
+
+
+    <Button
+        android:id="@+id/btnAutorama"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autorama"/>
+
+    <Button
+        android:id="@+id/btnSolarSystem"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interactive Animation"/>
+
+
+    <Button
+        android:id="@+id/btnTextPath"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text on path"/>
+
+    <Button
+        android:id="@+id/btnMesh"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bitmap Mesh"/>
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress"/>
+
+
+
+
+
+</LinearLayout>
